@@ -26,21 +26,22 @@ defaults.pcm.device 0
 ```
 Edit and save the file.
 
-To test if it works, you can use the `aplay` command:
+To test if it works, you can install and use the `mpg123` command:
 ```
-aplay test.mp3
+sudo apt install mpg123
+mpg123 test.mp3  
 ```
 
 You should have something like that (and sound on the headphones plugged on your USB sound card):
 ```
-test.mp3:
+High Performance MPEG 1.0/2.0/2.5 Audio Player for Layers 1, 2 and 3
+        version 1.26.4; written and copyright by Michael Hipp and others
+        free software (LGPL) without any warranty but with best wishes
 
- File Size: 5.32M     Bit Rate: 320k
-  Encoding: MPEG audio    Info: 2018
-  Channels: 2 @ 16-bit
-Samplerate: 44100Hz
-Replaygain: off
-  Duration: 00:02:13.00
 
-In:11.6% 00:00:15.42 [00:01:57.58] Out:740k  [  ====|===-  ]        Clip:0
+Terminal control enabled, press 'h' for listing of keys and functions.
+
+Playing MPEG stream 1 of 1: sample-15s.mp3 ...
+
+MPEG 1.0 L III vbr 44100 j-s
 ```
