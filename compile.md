@@ -17,6 +17,6 @@ cmake . -DLINPHONESDK_PLATFORM=Desktop -DENABLE_OPENH264=OFF  -DENABLE_LIME_X3DH
 
 Launch compilation (very long)
 
-`make -j2`
+`make -j4`
 
 Output binaries are on **linphone-sdk/desktop/bin** folder
