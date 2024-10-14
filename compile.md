@@ -6,6 +6,7 @@ As seen on https://wiki.linphone.org/xwiki/wiki/public/view/Linphone/Linphone%20
 `sudo apt install cmake automake autoconf libtool intltool yasm libasound2-dev libpulse-dev libv4l-dev nasm git libglew-dev doxygen meson`  
 
 Clone the linphone-sdk git repository on its latest stable branch (as of 2024/10/13 it is release/5.3).
+
 `git clone --branch release/5.3 https://gitlab.linphone.org/BC/public/linphone-sdk.git --recursive`
 
 # Compilation
