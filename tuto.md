@@ -5,6 +5,7 @@ docker run --rm -p 2222:2222 -it -v $PWD/dist:/dist pi start
 sudo apt install cmake automake autoconf libtool intltool yasm libasound2-dev libpulse-dev libv4l-dev nasm git libglew-dev ninja-build
 //git clone --branch release/5.2 https://gitlab.linphone.org/BC/public/linphone-sdk.git --recursive
 git clone --branch master https://gitlab.linphone.org/BC/public/linphone-sdk.git --recursive
+git submodule update --init --recursive
 cd linphone-sdk
 mkdir build-raspberry
 cd build-raspberry
