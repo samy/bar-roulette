@@ -7,6 +7,7 @@ sudo apt install cmake automake autoconf libtool intltool yasm libasound2-dev li
 //git clone --branch release/5.2 https://gitlab.linphone.org/BC/public/linphone-sdk.git --recursive
 cd linphone-sdk
 git clone --branch master https://gitlab.linphone.org/BC/public/linphone-sdk.git --recursive
+//git submodule deinit -f .
 git submodule update --init --recursive
 mkdir build-raspberry
 cd build-raspberry
