@@ -3,7 +3,8 @@ docker run --rm -p 2222:2222 -it -v $PWD/dist:/dist pi start
 docker stop $(docker ps -q --filter ancestor=<image-name> )
 
 
-sudo apt install cmake automake autoconf libtool intltool yasm libasound2-dev libpulse-dev libv4l-dev nasm git libglew-dev ninja-build
+sudo apt install cmake automake autoconf libtool intltool yasm libasound2-dev libpulse-dev libv4l-dev nasm git libglew-dev ninja-build -y
+
 //git clone --branch release/5.2 https://gitlab.linphone.org/BC/public/linphone-sdk.git --recursive
 cd linphone-sdk
 git clone --branch master https://gitlab.linphone.org/BC/public/linphone-sdk.git --recursive
