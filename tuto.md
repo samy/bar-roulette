@@ -2,6 +2,7 @@ docker build -t pi --build-arg DISK_SIZE=8G .
 docker run --rm -p 2222:2222 -it -v $PWD/dist:/dist pi start
 docker stop $(docker ps -q --filter ancestor=<image-name> )
 
+docker run --rm -it -v $PWD/dist:/dist ptrsr/pi-ci resize 20G
 
 sudo apt install cmake automake autoconf libtool intltool yasm libasound2-dev libpulse-dev libv4l-dev nasm git libglew-dev ninja-build -y
 
