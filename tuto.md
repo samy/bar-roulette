@@ -5,8 +5,9 @@ docker stop $(docker ps -q --filter ancestor=<image-name> )
 
 sudo apt install cmake automake autoconf libtool intltool yasm libasound2-dev libpulse-dev libv4l-dev nasm git libglew-dev ninja-build -y
 
-//git clone --branch release/5.2 https://gitlab.linphone.org/BC/public/linphone-sdk.git --recursive
-git clone --branch master https://gitlab.linphone.org/BC/public/linphone-sdk.git --recursive
+//git clone --branch release/5.2 https://github.com/BelledonneCommunications/linphone-sdk.git --recursive
+//  git clone --branch 5.3.90 https://github.com/BelledonneCommunications/linphone-sdk.git --recursive linphone53
+git clone --branch master https://github.com/BelledonneCommunications/linphone-sdk.git --recursive
 cd linphone-sdk
 
 //git submodule deinit -f .
