@@ -4,7 +4,7 @@ docker stop $(docker ps -q --filter ancestor=<image-name> )
 
 docker run --rm -it -v $PWD/dist:/dist ptrsr/pi-ci resize 20G
 
-sudo apt install cmake automake autoconf libtool intltool yasm libasound2-dev libpulse-dev libv4l-dev nasm git libglew-dev ninja-build -y
+sudo apt install cmake automake autoconf libtool intltool yasm libasound2-dev libpulse-dev libv4l-dev nasm git libglew-dev ninja-build doxygen -y
 
 //git clone --branch release/5.2 https://gitlab.linphone.org/BC/public/linphone-sdk.git --recursive
 //  git clone --branch 5.3.90 https://gitlab.linphone.org/BC/public/linphone-sdk.git --recursive linphone5390
