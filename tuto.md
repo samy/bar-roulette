@@ -7,7 +7,7 @@ docker run --rm -it -v $PWD/dist:/dist ptrsr/pi-ci resize 20G
 sudo apt install cmake automake autoconf libtool intltool yasm libasound2-dev libpulse-dev libv4l-dev nasm git libglew-dev ninja-build -y
 
 //git clone --branch release/5.2 https://gitlab.linphone.org/BC/public/linphone-sdk.git --recursive
-//  git clone --branch 5.3.90 https://gitlab.linphone.org/BC/public/linphone-sdk.git --recursive linphone53
+//  git clone --branch 5.3.90 https://gitlab.linphone.org/BC/public/linphone-sdk.git --recursive linphone_5.3.90
 git clone --branch master https://gitlab.linphone.org/BC/public/linphone-sdk.git --recursive
 cd linphone-sdk
 
